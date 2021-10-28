@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina", "Albina\Albina.csproj", "{B0344D37-D979-47C2-AA40-EFC409CE4C2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Albina", "Albina\Albina.csproj", "{B0344D37-D979-47C2-AA40-EFC409CE4C2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{4993BCAB-A9BC-46B9-9D3F-BB98E6A24D54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessLogic", "BusinessLogic", "{CF5E07B6-649A-4185-83AD-34708072AF06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{32FD35B6-6501-4F13-A862-89DD4A9BBA83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.Core", "Albina.Core\Albina.Core.csproj", "{328EE7D5-B66E-4BD3-8359-BB68F0A02A95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.Data.Access", "Albina.Data.Access\Albina.Data.Access.csproj", "{B5B65E7D-4DF6-4BCE-B0D0-2393353645A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Albina.DataAccess.Cor", "Albina.DataAccess.Cor\Albina.DataAccess.Cor.csproj", "{68CC58BE-4181-4555-809D-495530D1E048}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,27 @@ Global
 		{B0344D37-D979-47C2-AA40-EFC409CE4C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0344D37-D979-47C2-AA40-EFC409CE4C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0344D37-D979-47C2-AA40-EFC409CE4C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{328EE7D5-B66E-4BD3-8359-BB68F0A02A95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{328EE7D5-B66E-4BD3-8359-BB68F0A02A95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{328EE7D5-B66E-4BD3-8359-BB68F0A02A95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{328EE7D5-B66E-4BD3-8359-BB68F0A02A95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5B65E7D-4DF6-4BCE-B0D0-2393353645A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5B65E7D-4DF6-4BCE-B0D0-2393353645A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5B65E7D-4DF6-4BCE-B0D0-2393353645A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5B65E7D-4DF6-4BCE-B0D0-2393353645A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CC58BE-4181-4555-809D-495530D1E048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CC58BE-4181-4555-809D-495530D1E048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CC58BE-4181-4555-809D-495530D1E048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CC58BE-4181-4555-809D-495530D1E048}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0344D37-D979-47C2-AA40-EFC409CE4C2C} = {4993BCAB-A9BC-46B9-9D3F-BB98E6A24D54}
+		{328EE7D5-B66E-4BD3-8359-BB68F0A02A95} = {4993BCAB-A9BC-46B9-9D3F-BB98E6A24D54}
+		{B5B65E7D-4DF6-4BCE-B0D0-2393353645A9} = {32FD35B6-6501-4F13-A862-89DD4A9BBA83}
+		{68CC58BE-4181-4555-809D-495530D1E048} = {32FD35B6-6501-4F13-A862-89DD4A9BBA83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E131A989-3B78-47FD-9348-681A43F389C7}
