@@ -13,10 +13,12 @@ namespace Albina.DataAccess.Cor.Models
     class VirtualExpenseRto
     {
         [Key] public int Id { get; set; }
-        public float Cost { get; set; }
+        public int AuthorId { get; set; }
+
+        public string WhereSpand { get; set; }
+        public float Cost { get; set; } 
         public CostCurrencyRto CostCurrency { get; set; }
         public VirtualExpenseStatusRto Status { get; set; }
         public DataTimeOffset CreateDataTime { get; set; }
-        public List<DataTimeOffset>  ChangeDataTimes { get; set; }
     }
 }
